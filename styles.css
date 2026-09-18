@@ -108,8 +108,10 @@ textarea:focus-visible {
 }
 
 .brand img {
-  width: 200px;
+  width: 260px;
+  max-width: min(260px, 55vw);
   height: auto;
+  display: block;
 }
 
 .site-nav {
